@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: sora;
+  src: url(./fonts/Sora-Regular.ttf);
+}
+body {
+  font-family: sora;
+  font-size: 14px;
+  background-color: #fafaf9;
+  color: #6c727f;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  width: 336px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 164px;
+  border-radius: 10px;
+}
+.card-image-poster {
+    border-radius: 10px;
+  width: 100%;
+}
+.card-btn {
+  font-size: 10px;
+  background-color: #e6d6fc;
+  color: #883ae1;
+  border: none;
+  box-shadow: none;
+  margin: 16px 0;
+  padding: 6px 16px 6px 16px;
+  border-radius: 50px;
+}
+.card-title {
+  color: #20293a;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.card-text {
+  margin-bottom: 20px;
+}
+.card-footer {
+  padding-top: 16px;
+  padding-bottom: 4px;
+  border-top: solid 1px #e6d6fc;
+  font-size: 12px;
+}
